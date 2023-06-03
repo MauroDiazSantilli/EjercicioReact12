@@ -33,7 +33,7 @@ function Formulario() {
     <Container className="my-5 border border-secondary border-1 ">
       <Form>
         <Form.Group className="mt-5 border-secondary d-flex justify-content-center" controlId="categoriaForm">
-          <Form.Label className="d-inline fs-5">Buscar por Categoría: </Form.Label>
+          <Form.Label className="d-inline fs-5">Buscar por categoría: </Form.Label>
           <Form.Select className="ms-4 mb-5 w-50" aria-label="Categoría" onChange={(e) => setCategoria(e.target.value)} value={categoria}>
             <option value=''>Categorías</option>
             <option value="business">Negocios</option>
@@ -46,7 +46,7 @@ function Formulario() {
           </Form.Select>
         </Form.Group>
         <Form.Group className="mb-5 border-secondary d-flex justify-content-center" controlId="paisForm">
-          <Form.Label className="d-inline fs-5">Buscar por País: </Form.Label>
+          <Form.Label className="d-inline fs-5">Buscar por pais: </Form.Label>
           <Form.Select className="ms-4 mb-5 w-50" aria-label="País" onChange={(e) => setPais(e.target.value)} value={pais}>
             <option value=''>Países</option>
             <option value="in">India</option>
